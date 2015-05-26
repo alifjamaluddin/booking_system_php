@@ -1,0 +1,21 @@
+.jumbotron {
+	background-image: url('../img/banner-new.jpg');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	min-height: 200px;
+}
+
+.jumbotron p {
+	padding: 50px 0 0 10px;
+	font-size: 36px;
+}
+
+.col-md-9 {
+	max-height: 500px;
+	overflow: auto;
+}
+
+.table .table-hover
+{
+	border: 1px #fff solid;
+}

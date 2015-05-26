@@ -1,0 +1,46 @@
+.welcome-user p{
+	text-align: right;
+}
+
+
+.thumbnail {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.affix-top,.affix{
+	position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  	border:0 #eee solid;
+  	border-right-width:4px;
+}
+
+.container {
+  width: 60%;
+}
+
+
+  @media print {
+    .non-printable, .fancybox-outer { display: none; }
+    .printable, #printDiv { 
+        display: block; 
+        font-size: 26pt;
+    }
+  }

@@ -1,0 +1,37 @@
+.welcome-user p{
+	text-align: right;
+}
+
+
+.thumbnail {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container {
+  width: 60%;
+  
+}
+
+.container h1{
+	text-align: center;
+}
+
+.well {
+	width: 60%;
+}
+
+.button {
+  position: relative;
+  left: 250px;
+}
+
+.input-small {
+  position: relative;
+  left: 15px;
+}
+
+.add-on {
+  position: relative;
+  left: 15px;
+}
