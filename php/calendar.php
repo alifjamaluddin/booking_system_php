@@ -26,7 +26,7 @@ function draw_calendar($month,$year)
 
 	/* days and weeks vars now ... */
 	$running_day = date('w',mktime(0,0,0,$month,1,$year));
-	$days_in_month = date('t',mktime(0,0,0,$month,1,$year));
+	$days_in_month = date('t',mktime(0	,0,0,$month,1,$year));
 	$days_in_this_week = 1;
 	$day_counter = 0;
 	$dates_array = array();

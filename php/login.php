@@ -32,7 +32,7 @@
 				}
 				else
 				{
-					echo "Bukan admin"."Butuh anda";
+					echo "Your id or password is wrong";
 				}
 			}
 
@@ -63,7 +63,7 @@
 					}
 					else
 					{
-						echo "Hantar mesej"."Suruh confirmkan email";
+						echo "Your id or password is wrong";
 					}
 				}
 			}
